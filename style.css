@@ -305,6 +305,11 @@ nav .home-btn:hover{
     color: white;
     font-size: 18px;
 }
+.footer-box ul li a:hover{
+    color: hsl(322, 100%, 66%);
+    transition: all 0.5s ease;
+    transform: translateX(13px);
+}
 .media li{
     list-style: none;
     display: inline-block;
@@ -313,11 +318,13 @@ nav .home-btn:hover{
     width:100%;
     height:100%;
     color: white;
-    font-size: 15px;
-    border: 1px solid white;
+    font-size: 26px;
     padding: 3px;
-    border-radius: 50%;
     cursor: pointer;
+}
+.media li a i:hover{
+    color: hsl(322, 100%, 66%);
+    transition: all 0.5s ease;
 }
 
 @media only screen and (max-width:800px){
