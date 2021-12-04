@@ -346,6 +346,7 @@ nav .home-btn:hover{
 
 .name-sect{
     background-color: hsl(192, 100%, 9%);
+    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
     color: white;
